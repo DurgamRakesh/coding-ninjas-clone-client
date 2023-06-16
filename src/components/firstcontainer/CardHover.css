@@ -1,0 +1,238 @@
+.card-hover-container{
+    color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     /* padding: 50px; */
+ }
+ #inner-page{
+     width: 60vw;
+
+     /* max-width: 50vw; */
+ }
+ #inner-second-page{
+     /* display: flex;
+     flex-wrap: wrap;
+     justify-content: center; */
+     display: grid;
+     grid-template-columns: repeat(5,auto);
+     border-radius: 40px;
+ }
+ .card-hover-header{
+     padding: 20px 0px;
+      font-size: 32px;
+    line-height: 42px;
+    font-style: normal;
+    font-weight: 700;
+    color: #292a31;
+ }
+ .inner-child-boxes{
+     /* width:10vw; */
+     height: 80vh;
+     padding: 20px 25px;
+     transition: width 2s linear;
+    
+ }
+ .inner-child-boxes h2{
+    font-size: 32px;
+    line-height: 42px;
+ font: 700 20px/32px Mulish,Roboto,Helvetica Neue,sans-serif;
+ margin-top: 50px;
+    margin-bottom: 20px;
+   
+}
+
+.inner-child-boxes p{
+    font: 400 14px/22px Mulish,Roboto,Helvetica Neue,sans-serif;
+    color: #e1e1e3;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+
+
+ .inner-child-boxes:hover{
+     width: 25vw;
+ }
+ .hide-box{
+     visibility: hidden;
+ }
+ .inner-child-boxes:hover .hide-box{
+     visibility: visible;
+ }
+ .one{
+     background: linear-gradient(150deg,blueviolet,rgb(173, 150, 194),blueviolet);
+       border-top-left-radius: 10px;
+       border-bottom-left-radius: 10px;
+ }
+ .two{
+     background: linear-gradient(150deg,rgb(79, 15, 139),rgb(90, 51, 126),rgb(79, 17, 138));
+ }
+ .third{
+     background: linear-gradient(150deg,rgb(44, 4, 82),rgb(76, 31, 119),rgb(43, 4, 80));
+ }
+ .four{
+     background:linear-gradient(150deg,rgb(10, 48, 173),rgb(49, 150, 233),rgb(5, 87, 180));
+ }
+ .five{
+     background:linear-gradient(150deg,rgb(3, 3, 128),rgb(3, 3, 138));
+      border-top-right-radius: 10px;
+       border-bottom-right-radius: 10px;
+ }
+ #linkto{
+     text-decoration: none;
+     color: white;
+ }
+ 
+ .inner-child-boxes:hover .hide-container{
+     transform: translateY(-100px);
+ }
+ 
+ .hide-container{
+    float:right;
+    transform: translateY(-280px);
+ }
+
+
+ .cardhover-button{
+    text-transform: none;
+    height: 48px;
+    min-height: 32px;
+    color: #fff;
+    box-sizing: border-box;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    -webkit-tap-highlight-color: transparent;
+    display: inline-block;
+    white-space: nowrap;
+    text-decoration: none;
+    vertical-align: baseline;
+    text-align: center;
+    overflow: visible;
+    margin: 0;
+    min-width: 64px;
+    line-height: 22px;
+    border-radius: 6px;
+    padding: 0 26px;
+    min-height: 32px;
+    color: #000000de;
+    background-image: linear-gradient(90deg,#f96b24 0%,#ff9100 100%);
+    font-family: Mulish,Roboto,Helvetica Neue,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 50px;
+    letter-spacing: .5px;
+ }
+ .cardhover-button:hover{
+    background-image: linear-gradient(270deg,#f96b24 0%,#ff9100 100%);
+ }
+
+ 
+
+
+
+
+ #card-hover-container-2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background: #425996;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 50px;
+    /* background-image: url('https://files.codingninjas.in/group-4456-9842.svg');
+    right: 0;
+    top: 0;
+    filter: blur(84px);
+    /* position: absolute;
+    /* z-index: 1; */
+}
+
+.new-box-1,.new-box-2{
+    background-image: url("https://files.codingninjas.in/hex-9602.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:160px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4px;
+    box-sizing: border-box;
+}
+.new-small-size{
+    width: 100px;
+    text-align: center;
+    font-size: 12px;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+.top-one,.bottom-one{
+    display: flex;
+} 
+.top-one{
+    position: relative;
+    right: 26%;
+    top: 8%;
+}
+.chc-p-one
+.chc-p-two{
+    padding: 0px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+.new-size{
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.why-button{
+
+
+    width: 136px;
+    height: 40px;
+    background: rgba(255,255,255,.2);
+    border-radius: 50px;
+    place-content: stretch center;
+    align-items: stretch;
+    border: none;
+    color: #f9f9fa;
+    font: 500 16px/24px Mulish,Roboto,Helvetica Neue,sans-serif;
+}
+
+.greate-student{
+    color: #f9f9fa;
+    font: 700 32px/42px Mulish,Roboto,Helvetica Neue,sans-serif;
+    padding-top: 32px!important;
+    padding-bottom: 16px!important;
+}
+
+.hide-one{
+    background-image: url("https://files.codingninjas.in/hex-9602.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* width:160px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4px;
+    box-sizing: border-box; */
+}
+
+.ithappens{
+    color: #e1e1e3;
+    font: 500 16px/24px Mulish,Roboto,Helvetica Neue,sans-serif;
+}

@@ -1,0 +1,212 @@
+.firstcon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    
+}
+
+.typewriter{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: left;
+   color: #e1e1e3;
+   -webkit-font-smoothing: antialiased;
+   -webkit-tap-highlight-color: transparent;
+   font-family: Mulish,Mulish,Helvetica,Arial,sans-serif;
+}
+
+.text{
+    color: #fa7328;
+    font: 530 40px/52px Mulish,Roboto,Helvetica Neue,sans-serif;
+    text-align: left;
+    letter-spacing: 2px;
+    /* background: -webkit-linear-gradient(to botton,#fa7328,#ee9f15);
+    background-clip: inherit;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    
+     /* -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent; */
+    /* margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+} 
+.smalldata{
+    font: 700 20px/32px Mulish,Roboto,Helvetica Neue,sans-serif;
+    padding-top: 10px;
+padding-bottom: 24px!important;
+text-align: left;
+color: #e1e1e3;
+}
+.mainbutton{
+    width: 100%;
+}
+
+.mainbutton button{
+height: 48px;
+    min-height: 32px;
+    color: #fff;
+    box-sizing: border-box;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    -webkit-tap-highlight-color: transparent;
+    display: inline-block;
+    white-space: nowrap;
+    text-decoration: none;
+    vertical-align: baseline;
+    text-align: center;
+    overflow: visible;
+    margin: 0;
+    min-width: 64px;
+    line-height: 22px;
+    border-radius: 6px;
+    padding: 0 24px;
+    min-height: 32px;
+    color: #000000de;
+    background-image: linear-gradient(90deg,#f96b24 0%,#ff9100 100%);
+    font-family: Mulish,Roboto,Helvetica Neue,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 12px!important;
+}
+
+.mainbutton button span{
+    padding-left: 68px!important;
+    padding-right: 68px!important;
+    vertical-align: middle;
+    font: 500 16px/22px Mulish,Roboto,Helvetica Neue,sans-serif;
+    color: #fff;
+}
+.mainbutton :hover{
+    background-image: linear-gradient(270deg,#f96b24 0%,#ff9100 100%);
+}
+.div-2{
+    width: 956px;
+    max-width: 956px;
+    margin: 80px auto;
+    background: linear-gradient(97.82deg,rgba(32,5,84,.2) 5.54%,rgba(31,21,94,.2) 98.35%),#0a2541;
+    box-shadow: 0 12px 24px #3a3a4414, 0 24px 48px #5a5b6a14;
+    border-radius: 8px;
+    z-index: 1;
+}
+.div-3{
+    padding: 32px;
+}
+.div-3-first{
+   color:  #f9f9fa;
+   text-align: center;
+   font: 700 24px/32px Mulish,Roboto,Helvetica Neue,sans-serif;
+}
+.div-3-second{
+    text-align: center;
+    color: #e1e1e3;
+    font: 520 16px/24px Mulish,Roboto,Helvetica Neue,sans-serif;
+    padding-bottom: 24px!important;
+    padding-top: 16px!important;
+}
+.div-3-third{
+    display: flex;
+    flex-direction: row;
+}
+    
+.boxes{
+    display: flex;
+    flex-direction: row;
+    color: #d2d2d6;
+}
+.v1{
+    place-content: stretch center;
+    padding-left: 12px;
+    font: 600 16px/24px Mulish,Roboto,Helvetica Neue,sans-serif;
+}
+
+
+.campanys{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+.our{
+    text-align: center;
+font-size: 24px;
+letter-spacing: .5px;
+padding: 24px;
+font-weight: 700;
+}
+
+
+.comp-body{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 100px;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.comp-end{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.download{
+    height: 48px;
+    padding-left: 48px;
+    padding-right: 48px;
+    min-height: 32px;
+    background-color: #feeee5;
+    color: #f9601e;
+    box-sizing: border-box;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    -webkit-tap-highlight-color: transparent;
+    display: inline-block;
+    white-space: nowrap;
+    text-decoration: none;
+    vertical-align: baseline;
+    text-align: center;
+    overflow: visible;
+    margin: 0;
+    min-width: 64px;
+    line-height: 22px;
+    border-radius: 6px;
+    font-family: Mulish,Roboto,Helvetica Neue,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+.download:hover{
+    background-color: #fed5bf;
+}
+
+
+#imganimation{
+    position: relative;
+    animation: topbottom 4s infinite;
+}
+@keyframes topbottom {
+    0%, 100% {
+        bottom: 0;
+    }
+    50% {
+        bottom: -4%;
+    }
+}
